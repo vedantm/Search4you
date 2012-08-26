@@ -1,0 +1,58 @@
+/* Our Main css */
+
+@import "buttons.css"; 				/* CSS3 Buttons */
+
+*{ margin : 0px ; padding:0px}
+
+html, body { width: 100%; }
+
+body { color: #000; font: normal 14px/24px arial, serif;  text-align:center; }
+
+.shadow{
+    -moz-box-shadow: 7px 7px 10px #333;
+    -webkit-box-shadow: 7px 7px 10px #333;
+    box-shadow: 7px 7px 10px #333; /* For IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#333333')"; /* For IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength = 4, Direction = 135, Color = '#333333');
+}
+
+#wrapper{ height:100%; width:800px; margin:0px auto; backgroud:#eee;text-align:center;}
+#mainHeading{ font-size:45px; font-family:tahoma; }
+
+#mainContent{ text-align:center; font-size:25px;}
+
+#map{
+background:black;
+width:600px;
+height:500px;
+visibility:hidden;
+z-index:1001;
+opacity: 0.99;
+overflow:auto;
+position:absolute;
+top: 21%;
+left:23%;/*
+align:center;*/
+
+}
+
+#map_header{
+	margin:1px 6px;
+	text-align:left;
+	color:white;
+}
+
+#map_canvas{
+	margin:1px 6px;
+	width: 588px;
+	height: 465px
+}
+
+
+
+
+
+
+
+
+
